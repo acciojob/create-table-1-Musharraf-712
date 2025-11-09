@@ -3,7 +3,7 @@ function insert_Row() {
   const table = document.querySelector('#sampleTable')
 	const tRow = document.createElement('tr');
 		 tRow.innerHTML = `<td>New Cell1</td>
-			 <td>NewCell2</td>`;
+			 <td>New Cell2</td>`;
 	table.prepend(tRow)
 
  
